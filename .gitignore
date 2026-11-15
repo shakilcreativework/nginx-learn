@@ -1,0 +1,19 @@
+# Installed dependencies
+node_modules/
+
+# Local Nginx runtime and downloaded executable
+nginx-1.31.8/nginx.exe
+nginx-1.31.8/logs/
+nginx-1.31.8/temp/
+nginx-1.31.8/gzip-response.gz
+
+# Local TLS material
+nginx-1.31.8/conf/ssl/
+
+# Local settings and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.log
